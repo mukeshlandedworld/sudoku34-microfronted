@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="EJB">
+    <output-path>$PROJECT_DIR$/out/artifacts/EJB</output-path>
+    <root id="archive" name="EJB.jar" />
+  </artifact>
+</component>
