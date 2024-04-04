@@ -63,21 +63,21 @@ Before running the Docker commands, make sure you have the following installed:
 6. Build the MVN Package:
 
    ```bash
-   mvn clean install
+   mvn clean package
 
 6. Build the Docker image:
 
    ```bash
-   docker build -t sudoku34-tomacat-image .
+   docker build -t sudoku34-web-app-image .
 
 6. Run the Docker container:
 
    ```bash
-   docker run -d -p 8080:8080 sudoku34-tomacat-image
+   docker run -d -p 8080:8080 sudoku34-web-app-image
 
 13. Access the web application:
 
-    Open your web browser and navigate to http://localhost:8080/ to view the deployed web application.
+    Open your web browser and navigate to http://localhost:8080/sudoku34-web-app-image/ to view the deployed web application.
 
 ## Deployed Version
 
